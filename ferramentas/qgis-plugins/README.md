@@ -30,6 +30,7 @@ Legenda de status em [../README.md](../README.md#legenda-de-status).
 | **Geoscience** | [geoscience.md](dados-campo/geoscience.md) | 2.0 (2026-08-16) · 1.17 para QGIS 3 | 3.x / 4.x | GPL-3.0 | ativo | autor Roland Hill; README ainda diz "sem desenvolvimento", mas há 5 releases em 2026 |
 | **Data Plotly** | [data-plotly.md](dados-campo/data-plotly.md) | 4.5.1 (2026-06-24) | 3.28 → 4.x | GPL-2.0 | ativo | precisa do pacote Python `plotly` e de QtWebKit (QGIS 3) / QtWebEngine (QGIS 4); não faz Piper/Stiff |
 | **Point Sampling Tool** | [point-sampling-tool.md](dados-campo/point-sampling-tool.md) | 0.5.6 (2026-03-03) | 3.0 → 4.x | GPL-3.0 | manutenção esporádica | exige mesmo SRC em todas as camadas; o algoritmo nativo "Sample raster values" resolve o caso simples |
+| **Coord. AttribuTable** | [coord-attributable.md](dados-campo/coord-attributable.md) | 0.1 (2020-07-22) | 3.0 → 3.99 | GPL-2.0+ só no cabeçalho dos .py (sem LICENSE) | abandonado | coordenadas em GMS/UTM na tabela para outorga e SIAGAS; GMS sai sem letra N/S/E/W e a saída é Shapefile; calculadora de campo faz o mesmo com `to_dms()` |
 
 ## Sensoriamento remoto e geofísica
 
@@ -38,6 +39,17 @@ Legenda de status em [../README.md](../README.md#legenda-de-status).
 | **SCP — Semi-Automatic Classification** | [scp-semi-automatic-classification.md](sensoriamento-geofisica/scp-semi-automatic-classification.md) | 9.0.4 (2026-07-11) · 8.5.0 para QGIS 3 | 3.x (8.5) / 4.x (9.x) | GPL-3.0 | ativo | depende do pacote Remotior Sensus; conta gratuita no Copernicus Data Space; crash em loop reportado no macOS Apple Silicon |
 | **SGTool** ("Structural Geophysics Tools" no post) | [structural-geophysics-tools.md](sensoriamento-geofisica/structural-geophysics-tools.md) | 0.3.7 (2026-09-02) | 3.24 → 4.x | MIT | ativo | o nome do post **não existe**; corresponde ao SGTool (Mark Jessell, WAXI): filtros, derivadas, continuação e gradeamento de dados potenciais |
 | **Freehand Raster Georeferencer** | [freehand-raster-georeferencer.md](sensoriamento-geofisica/freehand-raster-georeferencer.md) | 0.8.3 (2021-02-15) | ≤ 3.99 | GPL-2.0 | manutenção esporádica | não aparece no QGIS 4 (branch `qgis4` sem release); só transformação afim; Georreferenciador nativo quando o mapa tem grade |
+
+## Análise espacial e hidrologia
+
+| Plugin | Ficha | Versão | QGIS | Licença | Status | Observação |
+|---|---|---|---|---|---|---|
+| **WMCA — Weighted Multi-Criteria Analysis** | [wmca-analise-multicriterio.md](analise-hidrologia/wmca-analise-multicriterio.md) | 0.4.2 (2023-02-07) | 3.0 → 3.99 | GPL-2.0+ só no cabeçalho dos .py (sem LICENSE) | abandonado | pesos por raster e notas por classe para mapa de favorabilidade; **a 0.4.1 marcada "estável" na loja quebra no QGIS ≥ 3.22**, habilitar experimentais para receber a 0.4.2 |
+| **BHCgeo** | [bhcgeo-balanco-hidrico.md](analise-hidrologia/bhcgeo-balanco-hidrico.md) | 0.3 (2023-04-12) | 3.0 → 3.99 | GPL-2.0+ só no cabeçalho dos .py (sem LICENSE) | abandonado | balanço hídrico de Thornthwaite-Mather por pixel (excedente ≈ recarga potencial); exige 25 GeoTIFFs com nomes fixos e monta caminho com barra do Windows: **não roda no macOS/Linux sem editar o código** |
+
+Os três plugins de Romário Moraes Carvalho Neto (PlugGIS) acima e em
+dados de campo vêm da avaliação em
+[../autores/romario-moraes-carvalho-neto.md](../autores/romario-moraes-carvalho-neto.md).
 
 ## QGIS 3 LTR ou QGIS 4?
 
@@ -60,6 +72,9 @@ trabalho, conferir:
 | SCP | 8.5.0 (sem suporte) | sim (9.x) |
 | SGTool | 0.3.7 (mesma) | sim |
 | Freehand Raster Georeferencer | 0.8.3 | **não** (ainda) |
+| Coord. AttribuTable | 0.1 | **não** |
+| WMCA | 0.4.2 | **não** |
+| BHCgeo | 0.3 | **não** |
 
 Recomendação: manter o **QGIS 3.40 LTR** na máquina de produção até que
 Freehand Raster Georeferencer e qProf tenham release estável para o 4;
@@ -90,6 +105,7 @@ quando forem testados:
 - **Advanced Charts** (1.2.0, QGIS ≥ 4) — gráficos Matplotlib no layout.
 - **tomofast_x_q** (0.2.14, 2026-06) — inversão geofísica com Tomofast-x.
 - **Geosoft GRD Loader** (1.2.0, 2026-08) — abre grids `.grd` da Geosoft (aerogeofísica do SGB).
+- **GeoAI** (Luis E. Pérez Graterol, GPL-3.0) — Segment Anything (SAM) dentro do QGIS para segmentar imagens de drone/satélite; exige PyTorch.
 
 ## Instalação (regras gerais)
 

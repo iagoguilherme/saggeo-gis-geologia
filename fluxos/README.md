@@ -21,6 +21,9 @@ e o resultado conferido.
 | Terreno 3D com poços para apresentação | cena 3D navegável no navegador com MDE, imagem e poços | Qgis2threejs | a documentar |
 | Plotar perfil litológico de poços a partir de tabela | gerar colunas litológicas em lote a partir de collar + intervalos | Geoscience, striplog | a documentar |
 | Gráficos de hidroquímica e teste de bombeamento | dispersão, histogramas e séries a partir da tabela de atributos | Data Plotly | a documentar |
+| Coordenadas em GMS e UTM para formulários de outorga | gerar colunas de coordenadas de um lote de poços nos formatos exigidos por ADASA, SEMAD e SIAGAS | Coord. AttribuTable ou calculadora de campo (`to_dms`, `transform`) | a documentar |
+| Mapa de favorabilidade hidrogeológica | ponderar lineamentos, litologia, declividade, uso do solo e drenagem para priorizar áreas de locação em aquífero fissural | WMCA, Raster Calculator | a documentar |
+| Recarga potencial por balanço hídrico climático | estimar excedente hídrico mensal a partir de chuva, evapotranspiração potencial e CAD | BHCgeo, dados ANA/CHIRPS | a documentar |
 
 ## Modelo de fluxo
 

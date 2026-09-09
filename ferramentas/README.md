@@ -5,7 +5,8 @@ ter) uma ficha própria feita a partir de [_TEMPLATE.md](_TEMPLATE.md).
 
 | Família | Índice | Situação |
 |---|---|---|
-| **Plugins QGIS** | [qgis-plugins/README.md](qgis-plugins/README.md) | 13 fichas verificadas (2026-09-08), 4 categorias |
+| **Plugins QGIS** | [qgis-plugins/README.md](qgis-plugins/README.md) | 16 fichas verificadas (2026-09-08), 5 categorias |
+| **Autores e curadores** | [autores/README.md](autores/README.md) | quem publica ferramentas úteis; 1 perfil avaliado |
 | **Software** | [software/README.md](software/README.md) | lista comentada; fichas a fazer |
 | **Bibliotecas Python** | [python/README.md](python/README.md) | lista comentada; fichas a fazer |
 

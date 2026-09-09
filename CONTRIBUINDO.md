@@ -22,6 +22,14 @@
    `ferramentas: adiciona ficha do <nome>` ou
    `ferramentas: atualiza <nome> para vX.Y (status)`.
 
+## Avaliar um autor ou curador
+
+Perfil em `ferramentas/autores/<nome>.md` seguindo o roteiro de
+[ferramentas/autores/README.md](ferramentas/autores/README.md): fontes,
+tabela de ferramentas (gratuita/paga, versão, licença, entra ou não e por
+quê), avaliação, como acompanhar, o que não foi verificado. As ferramentas
+que entram ganham ficha normal na categoria certa.
+
 ## Adicionar uma fonte de dados
 
 Uma linha na tabela de [dados/README.md](dados/README.md) com: nome,
@@ -45,6 +53,7 @@ e o resultado conferido.
 | `estrutural-perfis` | perfis topográficos, seções geológicas, estereogramas, projeção de furos |
 | `dados-campo` | furos/poços, amostras, gráficos, extração de valores para pontos |
 | `sensoriamento-geofisica` | imagens de satélite, classificação, geofísica, georreferenciamento |
+| `analise-hidrologia` | análise multicritério, balanço hídrico, recarga, bacias, interpolação |
 
 Se uma ferramenta cabe em duas, fica na que corresponde ao uso principal
 e a outra categoria a menciona em "Ver também".

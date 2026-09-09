@@ -12,8 +12,9 @@ Aqui fica o que foi **verificado e testado**; ideias e rascunhos ficam em
 | Seção | Onde | O que contém |
 |---|---|---|
 | **Ferramentas** | [ferramentas/README.md](ferramentas/README.md) | índice de tudo que é software, plugin ou biblioteca; uma ficha por ferramenta |
-| ↳ Plugins QGIS | [ferramentas/qgis-plugins/README.md](ferramentas/qgis-plugins/README.md) | catálogo por categoria (relevo, estrutural/perfis, dados de campo, sensoriamento/geofísica) com status de manutenção |
+| ↳ Plugins QGIS | [ferramentas/qgis-plugins/README.md](ferramentas/qgis-plugins/README.md) | catálogo por categoria (relevo, estrutural/perfis, dados de campo, sensoriamento/geofísica, análise/hidrologia) com status de manutenção |
 | ↳ Software | [ferramentas/software/README.md](ferramentas/software/README.md) | QGIS, GRASS, SAGA, GDAL, QField, PostGIS, estereogramas, modelagem 3D |
+| ↳ Autores e curadores | [ferramentas/autores/README.md](ferramentas/autores/README.md) | quem publica ferramentas úteis, o que foi avaliado e o que entrou no catálogo |
 | ↳ Python | [ferramentas/python/README.md](ferramentas/python/README.md) | bibliotecas geoespaciais e geológicas para automação fora do QGIS |
 | **Dados** | [dados/README.md](dados/README.md) | fontes de dados geoespaciais e geocientíficas (SGB, IBGE, ANA, INPE, estaduais, globais) |
 | **Fluxos** | [fluxos/README.md](fluxos/README.md) | roteiros passo a passo: do dado bruto ao produto (mapa de locação, seção, cota do poço…) |
