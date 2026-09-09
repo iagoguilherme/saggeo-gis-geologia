@@ -13,7 +13,8 @@ e o resultado conferido.
 | Extrair cota da boca do poço do MDE | obter altitude de N pontos a partir do SRTM/TOPODATA | Point Sampling Tool ou "Sample raster values", SRTM-Downloader | a documentar |
 | Perfil topográfico ao longo de uma linha | perfil para seção hidrogeológica ou linha de sondagem elétrica | qProf, Profile Tool, Elevation Profile nativo | a documentar |
 | Seção hidrogeológica com projeção de poços | seção com poços projetados, litologia e nível estático | qProf, sec_interp, dados SIAGAS | a documentar |
-| Lineamentos e estereograma para aquífero fissural | mapear lineamentos em imagem Sentinel/MDE sombreado e plotar direções para locação | SCP, sombreamento do QGIS, Stereonet | a documentar |
+| Lineamentos e estereograma para aquífero fissural | mapear lineamentos em imagem Sentinel/MDE sombreado e plotar direções para locação | SCP, sombreamento do QGIS, Stereoplot (o plugin Stereonet está abandonado) | a documentar |
+| Processar grid aerogeofísico do SGB | abrir grid magnetométrico/gamaespectrométrico do GeoSGB, aplicar filtros e derivadas para realçar estruturas | Geosoft GRD Loader, SGTool | a documentar |
 | Georreferenciar mapa geológico escaneado | colocar mapa antigo (SGB/DNPM, relatório) sobre a base atual | Freehand Raster Georeferencer, Georeferencer nativo | a documentar |
 | Bacia de contribuição e área de recarga | delimitar bacia a montante de um ponto a partir do MDE | GRASS r.watershed via Processing, SRTM | a documentar |
 | Consultar geologia e aquífero num ponto | obter unidade geológica e domínio hidrogeológico por coordenada | WMS/WFS do GeoSGB, SIEG; repo SEMAD-SGB-GEOLOGIA-REST | a documentar |

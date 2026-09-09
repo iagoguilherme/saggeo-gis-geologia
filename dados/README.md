@@ -26,7 +26,7 @@ o `.prj` ou o metadado antes de sobrepor.
 | **IBGE Geociências** | IBGE | malhas municipais, cartas topográficas, base contínua (BC250/BC100), nomes geográficos | download, WMS | https://www.ibge.gov.br/geociencias/ |
 | **INDE** | governo federal | catálogo de metadados e serviços de dezenas de órgãos | catálogo, WMS/WFS | https://inde.gov.br/ |
 | **TOPODATA** | INPE | SRTM 30 m refinado para o Brasil, com derivados (declividade, orientação, curvaturas, formas de terreno) | COG na plataforma BIG (WMS/STAC) ou download por folha 1:250k; o portal antigo `dsr.inpe.br/topodata` fica fora do ar com frequência | https://data.inpe.br/dados/topodata/ |
-| **SRTM / NASADEM** | NASA/USGS | MDE global 30 m | Earthdata (login) ou plugin SRTM-Downloader | https://earthdata.nasa.gov/ |
+| **SRTM / NASADEM** | NASA/USGS | MDE global 30 m | Earthdata Search (login) para download manual; o plugin SRTM-Downloader (≥ 3.3) baixa via API do OpenTopography com chave gratuita, sem conta Earthdata | https://earthdata.nasa.gov/ |
 | **Copernicus DEM (GLO-30)** | ESA | MDE global 30 m, mais recente que o SRTM | Copernicus Data Space / OpenTopography | https://dataspace.copernicus.eu/ |
 | **OpenTopography** | OpenTopography | agregador de MDEs globais e LiDAR; API com chave gratuita | API, download | https://opentopography.org/ |
 
