@@ -1,0 +1,48 @@
+# Segredos — nunca versionar
+.env
+.env.*
+secrets/
+*.pem
+*.key
+*credentials*
+auth.json
+id_rsa
+id_ed25519
+token*.json
+
+# Dados brutos e downloads grandes ficam fora do git
+dados/_local/
+*.tif
+*.tiff
+*.img
+*.hgt
+*.zip
+*.7z
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qix
+*.laz
+*.las
+
+# QGIS
+*.qgz~
+*.qgs~
+*.qgs.bak
+*.qgz.bak
+*.aux.xml
+*.ovr
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS / editores
+.DS_Store
+.idea/
+.vscode/
